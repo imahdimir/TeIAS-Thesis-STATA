@@ -1,0 +1,67 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{center}
+    \begin{tabular}{lcccc} \hline
+                         & (1)                                             & (2)                                            & (3)                                            & (4)                                            \\
+        VARIABLES        & S-3                                             & D-3                                            & S-5                                            & D-5                                            \\ \hline
+        \vspace{4pt}     & \begin{footnotesize}\end{footnotesize}          & \begin{footnotesize}\end{footnotesize}         & \begin{footnotesize}\end{footnotesize}         & \begin{footnotesize}\end{footnotesize}         \\
+        R(-1)            & -2.114***                                       & 0.632***                                       & -1.985***                                      & 0.591***                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(-21.70)\end{footnotesize}  & \begin{footnotesize}(18.04)\end{footnotesize}  & \begin{footnotesize}(-19.97)\end{footnotesize} & \begin{footnotesize}(16.30)\end{footnotesize}  \\
+        R(-5, -2)        & 0.189***                                        & -0.0585***                                     & 0.167***                                       & -0.0562***                                     \\
+        \vspace{4pt}     & \begin{footnotesize}(5.605)\end{footnotesize}   & \begin{footnotesize}(-3.736)\end{footnotesize} & \begin{footnotesize}(4.655)\end{footnotesize}  & \begin{footnotesize}(-3.298)\end{footnotesize} \\
+        R(-27, -6)       & 0.182***                                        & -0.0886***                                     & 0.176***                                       & -0.0851***                                     \\
+        \vspace{4pt}     & \begin{footnotesize}(11.75)\end{footnotesize}   & \begin{footnotesize}(-12.34)\end{footnotesize} & \begin{footnotesize}(10.96)\end{footnotesize}  & \begin{footnotesize}(-11.27)\end{footnotesize} \\
+        R(-119, -28)     & 0.0484***                                       & -0.0294***                                     & 0.0475***                                      & -0.0285***                                     \\
+        \vspace{4pt}     & \begin{footnotesize}(7.242)\end{footnotesize}   & \begin{footnotesize}(-8.566)\end{footnotesize} & \begin{footnotesize}(7.029)\end{footnotesize}  & \begin{footnotesize}(-8.210)\end{footnotesize} \\
+        WeekDay = 2, 1   & 0.0152**                                        & -0.00829***                                    & 0.0123**                                       & -0.00763***                                    \\
+        \vspace{4pt}     & \begin{footnotesize}(2.457)\end{footnotesize}   & \begin{footnotesize}(-3.872)\end{footnotesize} & \begin{footnotesize}(1.980)\end{footnotesize}  & \begin{footnotesize}(-3.477)\end{footnotesize} \\
+        WeekDay = 3, 2   & 0.00606                                         & -0.00342                                       & 0.00492                                        & -0.00345                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(0.948)\end{footnotesize}   & \begin{footnotesize}(-1.349)\end{footnotesize} & \begin{footnotesize}(0.734)\end{footnotesize}  & \begin{footnotesize}(-1.295)\end{footnotesize} \\
+        WeekDay = 4, 3   & 0.0111                                          & -0.00542*                                      & 0.0111                                         & -0.00484                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(1.535)\end{footnotesize}   & \begin{footnotesize}(-1.900)\end{footnotesize} & \begin{footnotesize}(1.470)\end{footnotesize}  & \begin{footnotesize}(-1.628)\end{footnotesize} \\
+        WeekDay = 5, 4   & 0.00574                                         & -0.00313                                       & 0.00531                                        & -0.00282                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(0.899)\end{footnotesize}   & \begin{footnotesize}(-1.260)\end{footnotesize} & \begin{footnotesize}(0.808)\end{footnotesize}  & \begin{footnotesize}(-1.079)\end{footnotesize} \\
+        mh = 2, True     & -0.0775***                                      & -0.00800**                                     & -0.0779***                                     & -0.00824*                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(-10.95)\end{footnotesize}  & \begin{footnotesize}(-2.077)\end{footnotesize} & \begin{footnotesize}(-9.982)\end{footnotesize} & \begin{footnotesize}(-1.869)\end{footnotesize} \\
+        ml = 2, True     & 0.0564***                                       & -0.0233***                                     & 0.0567***                                      & -0.0254***                                     \\
+        \vspace{4pt}     & \begin{footnotesize}(8.857)\end{footnotesize}   & \begin{footnotesize}(-6.554)\end{footnotesize} & \begin{footnotesize}(7.816)\end{footnotesize}  & \begin{footnotesize}(-6.020)\end{footnotesize} \\
+        JYear = 2, 1388  & -0.0658***                                      & 0.125***                                       & -0.0524**                                      & 0.113***                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(-2.731)\end{footnotesize}  & \begin{footnotesize}(7.176)\end{footnotesize}  & \begin{footnotesize}(-1.972)\end{footnotesize} & \begin{footnotesize}(5.694)\end{footnotesize}  \\
+        JYear = 3, 1389  & -0.0590**                                       & 0.120***                                       & -0.0397                                        & 0.102***                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(-2.402)\end{footnotesize}  & \begin{footnotesize}(7.093)\end{footnotesize}  & \begin{footnotesize}(-1.489)\end{footnotesize} & \begin{footnotesize}(5.315)\end{footnotesize}  \\
+        JYear = 4, 1390  & -0.00404                                        & 0.0913***                                      & 0.0120                                         & 0.0757***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(-0.165)\end{footnotesize}  & \begin{footnotesize}(5.293)\end{footnotesize}  & \begin{footnotesize}(0.451)\end{footnotesize}  & \begin{footnotesize}(3.845)\end{footnotesize}  \\
+        JYear = 5, 1391  & -0.00221                                        & 0.0774***                                      & 0.0180                                         & 0.0597***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(-0.0913)\end{footnotesize} & \begin{footnotesize}(4.371)\end{footnotesize}  & \begin{footnotesize}(0.678)\end{footnotesize}  & \begin{footnotesize}(2.959)\end{footnotesize}  \\
+        JYear = 6, 1392  & -0.0797***                                      & 0.144***                                       & -0.0594**                                      & 0.125***                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(-3.288)\end{footnotesize}  & \begin{footnotesize}(8.760)\end{footnotesize}  & \begin{footnotesize}(-2.237)\end{footnotesize} & \begin{footnotesize}(6.632)\end{footnotesize}  \\
+        JYear = 7, 1393  & 0.0147                                          & 0.0960***                                      & 0.0359                                         & 0.0771***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(0.664)\end{footnotesize}   & \begin{footnotesize}(6.169)\end{footnotesize}  & \begin{footnotesize}(1.480)\end{footnotesize}  & \begin{footnotesize}(4.291)\end{footnotesize}  \\
+        JYear = 8, 1394  & -0.0196                                         & 0.114***                                       & 0.000687                                       & 0.0950***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(-0.833)\end{footnotesize}  & \begin{footnotesize}(6.929)\end{footnotesize}  & \begin{footnotesize}(0.0272)\end{footnotesize} & \begin{footnotesize}(5.122)\end{footnotesize}  \\
+        JYear = 9, 1395  & 0.0109                                          & 0.0918***                                      & 0.0296                                         & 0.0725***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(0.493)\end{footnotesize}   & \begin{footnotesize}(5.957)\end{footnotesize}  & \begin{footnotesize}(1.224)\end{footnotesize}  & \begin{footnotesize}(4.057)\end{footnotesize}  \\
+        JYear = 10, 1396 & 0.0132                                          & 0.0927***                                      & 0.0276                                         & 0.0747***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(0.553)\end{footnotesize}   & \begin{footnotesize}(5.799)\end{footnotesize}  & \begin{footnotesize}(1.060)\end{footnotesize}  & \begin{footnotesize}(4.059)\end{footnotesize}  \\
+        JYear = 11, 1397 & -0.0427*                                        & 0.117***                                       & -0.0257                                        & 0.0982***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(-1.723)\end{footnotesize}  & \begin{footnotesize}(6.918)\end{footnotesize}  & \begin{footnotesize}(-0.969)\end{footnotesize} & \begin{footnotesize}(5.166)\end{footnotesize}  \\
+        JYear = 12, 1398 & -0.113***                                       & 0.163***                                       & -0.0901***                                     & 0.145***                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(-4.579)\end{footnotesize}  & \begin{footnotesize}(10.31)\end{footnotesize}  & \begin{footnotesize}(-3.378)\end{footnotesize} & \begin{footnotesize}(7.943)\end{footnotesize}  \\
+        JYear = 13, 1399 & 0.00311                                         & 0.120***                                       & 0.0104                                         & 0.105***                                       \\
+        \vspace{4pt}     & \begin{footnotesize}(0.0973)\end{footnotesize}  & \begin{footnotesize}(6.232)\end{footnotesize}  & \begin{footnotesize}(0.317)\end{footnotesize}  & \begin{footnotesize}(4.981)\end{footnotesize}  \\
+        JYear = 14, 1400 & 0.102***                                        & 0.0769***                                      & 0.114***                                       & 0.0620***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(3.804)\end{footnotesize}   & \begin{footnotesize}(4.454)\end{footnotesize}  & \begin{footnotesize}(3.930)\end{footnotesize}  & \begin{footnotesize}(3.188)\end{footnotesize}  \\
+        JYear = 15, 1401 & 0.0433                                          & 0.106***                                       & 0.0398                                         & 0.0948***                                      \\
+        \vspace{4pt}     & \begin{footnotesize}(1.271)\end{footnotesize}   & \begin{footnotesize}(6.096)\end{footnotesize}  & \begin{footnotesize}(1.110)\end{footnotesize}  & \begin{footnotesize}(4.807)\end{footnotesize}  \\
+        Constant         & 0.120***                                        & -0.157***                                      & 0.0998***                                      & -0.138***                                      \\
+                         & \begin{footnotesize}(5.538)\end{footnotesize}   & \begin{footnotesize}(-10.37)\end{footnotesize} & \begin{footnotesize}(4.188)\end{footnotesize}  & \begin{footnotesize}(-7.848)\end{footnotesize} \\
+        \vspace{4pt}     & \begin{footnotesize}\end{footnotesize}          & \begin{footnotesize}\end{footnotesize}         & \begin{footnotesize}\end{footnotesize}         & \begin{footnotesize}\end{footnotesize}         \\
+        Observations     & 510,802                                         & 510,802                                        & 346,636                                        & 346,636                                        \\
+        $R^2$            & 0.018                                           & 0.013                                          & 0.016                                          & 0.012                                          \\
+        Number of groups & 736                                             & 736                                            & 735                                            & 735                                            \\ \hline
+        \multicolumn{5}{c}{\begin{footnotesize} t-statistics in parentheses\end{footnotesize}}                                                                                                                                \\
+        \multicolumn{5}{c}{\begin{footnotesize} *** p$<$0.01, ** p$<$0.05, * p$<$0.1\end{footnotesize}}                                                                                                                       \\
+    \end{tabular}
+\end{center}
+\end{document}

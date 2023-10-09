@@ -1,0 +1,33 @@
+\documentclass[border=0.2cm]{standalone}
+
+\usepackage{booktabs}
+
+
+
+\begin{document}
+\begin{tabular}{lcccccc}
+    \toprule
+                      & \multicolumn{3}{l}{Institutions}               & \multicolumn{3}{l}{Individuals}                                                                                                                                                                                                                    \\
+    \cmidrule(l){2-4} \cmidrule(l){5-7}
+                      & (1)                                            & (2)                                            & (3)                                            & (4)                                            & (5)                                            & (6)                                            \\
+    \midrule
+    R(-1)             & -2.343***                                      & -2.309***                                      & -2.308***                                      & 0.721***                                       & 0.703***                                       & 0.703***                                       \\
+    \vspace{4pt}      & \begin{footnotesize}(-26.42)\end{footnotesize} & \begin{footnotesize}(-25.90)\end{footnotesize} & \begin{footnotesize}(-25.89)\end{footnotesize} & \begin{footnotesize}(23.17)\end{footnotesize}  & \begin{footnotesize}(22.60)\end{footnotesize}  & \begin{footnotesize}(22.61)\end{footnotesize}  \\
+    R(-5, -2)         & 0.154***                                       & 0.156***                                       & 0.160***                                       & -0.0292**                                      & -0.0300**                                      & -0.0325**                                      \\
+    \vspace{4pt}      & \begin{footnotesize}(5.154)\end{footnotesize}  & \begin{footnotesize}(5.196)\end{footnotesize}  & \begin{footnotesize}(5.346)\end{footnotesize}  & \begin{footnotesize}(-2.236)\end{footnotesize} & \begin{footnotesize}(-2.299)\end{footnotesize} & \begin{footnotesize}(-2.492)\end{footnotesize} \\
+    R(-27, -6)        & 0.134***                                       & 0.134***                                       & 0.134***                                       & -0.0638***                                     & -0.0636***                                     & -0.0635***                                     \\
+    \vspace{4pt}      & \begin{footnotesize}(9.346)\end{footnotesize}  & \begin{footnotesize}(9.322)\end{footnotesize}  & \begin{footnotesize}(9.297)\end{footnotesize}  & \begin{footnotesize}(-9.708)\end{footnotesize} & \begin{footnotesize}(-9.687)\end{footnotesize} & \begin{footnotesize}(-9.666)\end{footnotesize} \\
+    R(-119, -28)      & 0.0275***                                      & 0.0274***                                      & 0.0274***                                      & -0.0183***                                     & -0.0183***                                     & -0.0183***                                     \\
+    \vspace{4pt}      & \begin{footnotesize}(4.115)\end{footnotesize}  & \begin{footnotesize}(4.117)\end{footnotesize}  & \begin{footnotesize}(4.119)\end{footnotesize}  & \begin{footnotesize}(-5.803)\end{footnotesize} & \begin{footnotesize}(-5.818)\end{footnotesize} & \begin{footnotesize}(-5.830)\end{footnotesize} \\
+    Lag 1 News FE     & No                                             & Yes                                            & Yes                                            & No                                             & Yes                                            & Yes                                            \\
+    Lag 2 News FE     & No                                             & No                                             & Yes                                            & No                                             & No                                             & Yes                                            \\
+    All Mentioned FEs & Yes                                            & Yes                                            & Yes                                            & Yes                                            & Yes                                            & Yes                                            \\
+    \vspace{4pt}      &                                                &                                                &                                                &                                                &                                                &                                                \\
+    Observations      & 882,133                                        & 882,133                                        & 882,133                                        & 882,133                                        & 882,133                                        & 882,133                                        \\
+    \(R^2\)           & 2.2\%                                          & 2.2\%                                          & 2.2\%                                          & 1.6\%                                          & 1.6\%                                          & 1.6\%                                          \\
+    Number of Firms   & 741                                            & 741                                            & 741                                            & 741                                            & 741                                            & 741                                            \\
+    \bottomrule
+    \multicolumn{7}{c}{\begin{footnotesize} t-statistics in parentheses\end{footnotesize}}                                                                                                                                                                                                                                  \\
+    \multicolumn{7}{c}{\begin{footnotesize} *** p$<$0.01, ** p$<$0.05, * p$<$0.1\end{footnotesize}}                                                                                                                                                                                                                         \\
+\end{tabular}
+\end{document}

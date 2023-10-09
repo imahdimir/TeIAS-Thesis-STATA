@@ -1,0 +1,30 @@
+\documentclass[border=0.2cm]{standalone}
+
+\usepackage{booktabs}
+
+
+\begin{document}
+\begin{tabular}{lcccc}
+    \toprule
+                        & \multicolumn{2}{l}{Institutions}               & \multicolumn{2}{l}{Individuals}                                                                                                                  \\
+    \cmidrule(l){2-3} \cmidrule(l){4-5}
+                        & 3 Days                                         & 5 Days                                         & 3 Days                                         & 5 Days                                         \\
+    \midrule
+    R(-1)               & -2.114***                                      & -1.985***                                      & 0.632***                                       & 0.591***                                       \\
+    \vspace{4pt}        & \begin{footnotesize}(-21.70)\end{footnotesize} & \begin{footnotesize}(-19.97)\end{footnotesize} & \begin{footnotesize}(18.04)\end{footnotesize}  & \begin{footnotesize}(16.30)\end{footnotesize}  \\
+    R(-5, -2)           & 0.189***                                       & 0.167***                                       & -0.0585***                                     & -0.0562***                                     \\
+    \vspace{4pt}        & \begin{footnotesize}(5.605)\end{footnotesize}  & \begin{footnotesize}(4.655)\end{footnotesize}  & \begin{footnotesize}(-3.736)\end{footnotesize} & \begin{footnotesize}(-3.298)\end{footnotesize} \\
+    R(-27, -6)          & 0.182***                                       & 0.176***                                       & -0.0886***                                     & -0.0851***                                     \\
+    \vspace{4pt}        & \begin{footnotesize}(11.75)\end{footnotesize}  & \begin{footnotesize}(10.96)\end{footnotesize}  & \begin{footnotesize}(-12.34)\end{footnotesize} & \begin{footnotesize}(-11.27)\end{footnotesize} \\
+    R(-119, -28)        & 0.0484***                                      & 0.0475***                                      & -0.0294***                                     & -0.0285***                                     \\
+    \vspace{4pt}        & \begin{footnotesize}(7.242)\end{footnotesize}  & \begin{footnotesize}(7.029)\end{footnotesize}  & \begin{footnotesize}(-8.566)\end{footnotesize} & \begin{footnotesize}(-8.210)\end{footnotesize} \\
+    All FEs Except News & Yes                                            & Yes                                            & Yes                                            & Yes                                            \\
+    \vspace{4pt}        & \begin{footnotesize}\end{footnotesize}         & \begin{footnotesize}\end{footnotesize}         & \begin{footnotesize}\end{footnotesize}         & \begin{footnotesize}\end{footnotesize}         \\
+    Observations        & 510,802                                        & 346,636                                        & 510,802                                        & 346,636                                        \\
+    $R^2$               & 1.8\%                                          & 1.6\%                                          & 1.3\%                                          & 1.2\%                                          \\
+    Number of Firms     & 736                                            & 735                                            & 736                                            & 735                                            \\
+    \bottomrule
+    \multicolumn{5}{c}{\begin{footnotesize} t-statistics in parentheses\end{footnotesize}}                                                                                                                                  \\
+    \multicolumn{5}{c}{\begin{footnotesize} *** p$<$0.01, ** p$<$0.05, * p$<$0.1\end{footnotesize}}                                                                                                                         \\
+\end{tabular}
+\end{document}
